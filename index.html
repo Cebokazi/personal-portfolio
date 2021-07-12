@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
    </head>
 
 <body>
@@ -28,10 +29,10 @@
           </div>
       </ul>
       <div class="media-icons">
-        <a href="https://www.facebook.com/profile.php?id=100008501322165"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/CebokaziMakasi"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/ngcwele_makasi/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/cebokazi-makasi-37925a1b7/"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
     <div class="menu-btn">
@@ -41,7 +42,9 @@
 
  <section class="home" id="home">
    <div class="home-content">
-      <img src="IMG-20210501-WA0034.jpg" class="shadow-dark">
+    <div class="item" data-aos="fade-right">
+      <img src="IMG_20210704_162342.jpg" class="shadow-dark">
+      </div>
      <div class="text">
        <div class="text-one">Hello!</div>
        <div class="text-two">I'm Cebo Makasi</div>
@@ -55,11 +58,15 @@
     <div class="title"><span>About Me</span></div>
   <div class="about-details">
     <div class="left">
-      <img src="IMG-20210412-WA0033.jpg">
+      <div class="item" data-aos="fade-left">
+      <img src="IMG_20210704_162559.jpg">
+      </div>
     </div>
     <div class="right">
       <div class="topic">Know me a bit better!</div>
+      <div class="cont"data-aos="fade-down">
       <p>My name is Cebokazi Makasi. I am Web Developer and a designer from Cape Town, South Africa. I have experience in web site design and building and I am currently leading my way into becoming a Mobile App Developer.</p>
+      </div>
       <div class="button">
         <a href="Cebokazi Makasi.pdf"><button>View CV</button></a>
       </div>
@@ -81,7 +88,7 @@
                 </div>
                 <div class="project-title">Fountain Of Hope</div>
                 <div class="project-desc">
-                    Church website
+                    Warship Productions
                 </div>
             </div>
             <div class="project-box">
@@ -90,7 +97,7 @@
                 </div>
                 <div class="project-title">BUA Tranlation</div>
                 <div class="project-desc">
-                    Translator Web App
+                    Nkele's Hair Emporium
                 </div>
             </div>
             <div class="project-box">
@@ -99,7 +106,7 @@
                 </div>
                 <div class="project-title">Nkele's Hair Emporium</div>
                 <div class="project-desc">
-                    Nkele's Hair Website
+                    Warship Productions
                 </div>
             </div>
             <div class="project-box">
@@ -108,7 +115,7 @@
                 </div>
                 <div class="project-title">Fifi The Runner</div>
                 <div class="project-desc">
-                    Fifi's Ecommerce Website
+                    Warship Productions
                 </div>
             </div>
             <div class="project-box">
@@ -117,7 +124,7 @@
                 </div>
                 <div class="project-title">Meadowridge Primary School</div>
                 <div class="project-desc">
-                    School's Online Application
+                    Warship Productions
                 </div>
             </div>
             <div class="project-box">
@@ -126,7 +133,7 @@
                 </div>
                 <div class="project-title">The Castle Of Good Hope Virtual Tour</div>
                 <div class="project-desc">
-                    Booking System
+                    Warship Productions
                 </div>
             </div>
         </div>
@@ -169,20 +176,16 @@
 
             <div class="social-icons">
               <div class="facebook">
-                <a href="https://www.facebook.com/profile.php?id=100008501322165">
-                  <i class="fab fa-facebook-f"></i></a>
+                <i class="fab fa-facebook-f"></i>
               </div>
               <div class="twitter">
-                <a href="https://twitter.com/CebokaziMakasi">
-                  <i class="fab fa-twitter"></i></a>
+                <i class="fab fa-twitter"></i>
               </div>
               <div class="instagram">
-                <a href="https://www.instagram.com/ngcwele_makasi/">
-                  <i class="fab fa-instagram"></i></a>
+                <i class="fab fa-instagram"></i>
               </div>
               <div class="linkedin">
-                <a href="https://www.linkedin.com/in/cebokazi-makasi-37925a1b7/">
-                  <i class="fab fa-linkedin"></i></a>
+                <i class="fab fa-linkedin"></i>
               </div>
             </div>
 
@@ -203,5 +206,21 @@
 </footer>
 
   <script src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:400,
+    duration:1000
+  });
+
+  AOS.init({
+			duration:1200,
+			easing:'ease-in-cubic',
+			delay:100,
+			offset:300
+		});
+</script>
 </body>
 </html>
+
